@@ -1,0 +1,20 @@
+.row-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.category__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 35px;
+    margin-top: 65px;
+    background: #fde4e4;
+    padding: 20px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.category__item:hover{
+    transform: translateY(-15px);
+}

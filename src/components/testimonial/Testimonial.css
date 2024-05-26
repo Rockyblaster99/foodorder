@@ -1,0 +1,13 @@
+.slider__content{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.slider__content img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.s-text{
+
+}

@@ -1,0 +1,276 @@
+.container {
+    width: 85%;
+    margin: auto;
+}
+.row-2{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+}
+.hero__content {
+    padding-top: 70px;
+}
+.img-1{
+    width: 100%;
+}
+.hero__content h5{
+    margin-bottom: 3px;
+}
+.hero__content h1{
+    margin-bottom: 4px;
+    font-size: 2.5rem;
+    line-height: 55px;
+}
+.hero__content h1 span{
+    color: red;
+}
+.hero__content p{
+    font-size: 1rem;
+    line-height: 30px;
+    color: #777;
+}
+.hero__btns {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 10px;
+
+}
+.order__btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: red;
+    color: white;
+    transition: 0.3s;
+}
+.order__btn:hover{
+    background-color:#212245;
+
+}
+.hero__btns button{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.all__foods-btn a{
+    text-decoration: none;
+    color: red;
+}
+.all__foods-btn{
+    border: 1px solid red !important;
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 25px;
+}
+.charge__shit{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.charge__shit p{
+    color: #212245;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.shipping__icon .iii{
+    padding: 5px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+}
+/*------------------second container------*/
+.pt-0{
+    padding-top: 0;
+}
+/*--------------------third container-----*/
+
+.col-f{
+    text-align: center;
+}
+.col-f h5{
+    margin-top: 46px;
+    font-weight: 700;
+    color: red;
+
+}
+.col-f h2{
+    margin-top: -20px;
+    color: #212245;
+    font-weight: 800;
+
+}
+.col-f h2 span {
+    color: red;
+}
+.col-f .first-p{
+    margin-top: 4px;
+    margin-bottom: -2px;
+    line-height: 0;
+    color: #777;
+}
+.col-f .second-p{
+    margin-bottom: 4rem;
+    color: #777;
+}
+.col-6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+.col-s{
+    margin-top: 5px;
+    text-align: center;
+}
+.feature__item img{
+    width: 25%;
+    margin-bottom: -24px;
+}
+.feature__item p{
+    margin-top: -22px;
+    margin-bottom: 25px;
+    color: #777777;
+
+}
+.feature__item h5{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.minus{
+    margin-bottom: 4rem;
+}
+
+/*-------------section-4(container)--------*/
+.col-h-s-4-1{
+    text-align: center;
+    color: #212245;
+}
+.food__category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    background-color:red;
+    padding: 20px 0;
+    border-radius: 8px;
+
+}
+.food__category button{
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 7px 20px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+
+}
+.food__category button img{
+    width: 15px;
+    height: 15px;
+}
+.foodBtnActive{
+    background-color: white !important;
+    color: red !important;
+    border-radius: 5px;
+}
+
+.col-h-s-4-3{
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    gap: 1rem;
+}
+.list__of__items{
+    margin-top: 1rem;
+}
+
+/*------------section-5(container)-------*/
+.row-h-s-5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+}
+.location-img img{
+    width: 100%;
+}
+.why__tasty-treat ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+.details__p{
+    display: flex;
+    align-items: center;
+    gap:4px;
+    font-weight: 600;
+
+}
+.tasty__treat-title{
+    color: #212245;
+}
+.tasty__treat-title span{
+    color: red;
+}
+.treat-desc{
+    color: #777777;
+    line-height: 28px;
+}
+.treat__desc{
+    color: #777777;
+}
+.icon-circle{
+    color: red;
+    font-weight: bold !important;
+    font-size: 2rem;
+    background-color: black;
+    border-radius: 50%;
+
+}
+
+/*---------section-6(container)----------*/
+.col-h2 h2{
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+.pizza-only{
+    margin-bottom: 3rem;
+}
+
+/*-------section-7(container)----------*/
+.row-h-s-7{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+.col-net-img img{
+    width: 100%;
+}
+.col-testimonial{
+    margin-bottom: 10px;
+}
+.testimonial__subtitle{
+    color: red;
+    font-size: 1rem;
+    margin-bottom: -13px;
+}
+.col-testimonial h2 span {
+    color: red;
+}
+.col-testimonial p{
+    color: #777777;
+    line-height: 30px;
+}
+
+
+
+
+
+
+

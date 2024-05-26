@@ -1,0 +1,45 @@
+.form__group{
+    width: 90%;
+    margin-top: 2rem;
+
+}
+.col-checkout-1-1{
+    margin-bottom: 2rem;
+}
+.row-checkout-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.col-checkout-1-2{
+    margin-top: 2rem;
+}
+.checkout__bill{
+    background-color: #fde4e4;
+    padding: 10px 20px;
+
+}
+.checkout__bill h6{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h5{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h6 span{
+    font-size: 1.3rem;
+    color: red;
+}
+h5 span{
+    font-size: 1.3rem;
+    color: green;
+}
+.checkout__total{
+    border-top: 1px solid #212245;
+    padding-top: 30px;
+}
